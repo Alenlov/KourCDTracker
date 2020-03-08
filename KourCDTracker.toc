@@ -1,0 +1,11 @@
+## Interface: 11303
+## Title: KourCDTracker
+## Author: Kour
+## Version: 1.0
+## DefaultState: Enabled
+## SavedVariables: CDTimers
+Libs\main.xml
+
+
+KourCDTracker.lua
+Config.lua
