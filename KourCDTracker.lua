@@ -158,7 +158,7 @@ function KourCDTracker:SetupFrame( )
 	f1.infoText = f1:CreateFontString(nil,"HIGHLIGHT")
 	f1.infoText:SetFont("Fonts\\ARIALN.ttf", 13, "OUTLINE")
 	f1.infoText:SetPoint("TOPLEFT",0,-headerHeight-25)
-	f1.infoText:SetText("Kour CD Tracker")
+	f1.infoText:SetText("No data in addon, please open trade skill window.")
 	f1:Show()
 	KourCDTracker.frame = f1
 end
