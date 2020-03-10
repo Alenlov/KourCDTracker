@@ -7,12 +7,14 @@ KourCDTracker.RealmName = GetRealmName()
 KourCDTracker.Token = KourCDTracker.CharName.."-"..KourCDTracker.RealmName
 KourCDTracker.Timers = {}
 KourCDTracker.SpellIDs = {
-	["Tailoring"] = 18560, --Mooncloth
-	["Alchemy"] = 17187
+	["Tailoring"] = 18560, -- Mooncloth
+	["Alchemy"] = 17187, -- Transmute Arcanite
+	["Leatherworking"] = 19566 -- Salt Shaker
 }
 KourCDTracker.SkillCheck = {
-	["Tailoring"] = 250,
-	["Alchemy"] = 275
+	["Tailoring"] = 250, -- Skill for Mooncloth
+	["Alchemy"] = 275, -- Skill for Transmute Arcanite
+	["Leatherworking"] = 250 -- Skill for Salt Shaker
 }
 KourCDTracker.Checked = 0
 KourCDTracker.frame = {} 
